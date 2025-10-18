@@ -1,0 +1,14 @@
+# Diretórios e arquivos de logs (arquivos que não precisam ser versionados)
+logs/
+*.log
+npm-debug.log*
+
+# Diretório de dependências do Node.js (não deve ser versionado)
+node_modules/
+
+# Diretório de saída de build (arquivos gerados, que não precisam ser versionados)
+dist/
+
+# Configurações do VS Code (ignorando tudo, exceto as extensões recomendadas)
+.vscode/
+!.vscode/extensions.json
