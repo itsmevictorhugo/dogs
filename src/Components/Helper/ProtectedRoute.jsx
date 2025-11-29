@@ -4,7 +4,6 @@ import { Navigate } from 'react-router-dom';
 
 const ProtectedRoute = ({children}) => {
   const {login} = React.useContext(UserContext);
-  console.log(login);
   if(login === true) {
     return children
   } else if (login === false) {
