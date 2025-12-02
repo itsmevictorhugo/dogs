@@ -19,7 +19,7 @@ const UserHeader = () => {
         break;
       
       default:
-        setTitle('Minha conta');
+        setTitle('Minha Conta');
         break;
     }
   }, [location])
